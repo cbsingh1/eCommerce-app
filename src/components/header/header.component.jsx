@@ -7,7 +7,7 @@ import './header.styles.scss';
 
 const Header = () => (
     <div className='header'>
-        <Link className='logo-container' to="/">
+        <Link className='logo-container' to='/'>
             <Logo className='logo' />
         </Link>
         <div className='options'>
@@ -15,6 +15,6 @@ const Header = () => (
             <Link className='option' to='/contact'>CONTACT</Link>
         </div>
     </div>
-)
+);
 
 export default Header;
